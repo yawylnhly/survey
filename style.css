@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&family=Fondamento&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(53, 53, 53);
+    line-height: 1.5;
+    width: 80%;
+    color: rgb(202, 197, 198);
+    margin: auto;
+    align-items: center;
+   }
+
+form {
+    background-color: rgb(43, 39, 44);    
+    margin: auto;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+textarea { 
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    align-items: center;
+    margin-left: 50%;
+}
+
+label {
+    
+}

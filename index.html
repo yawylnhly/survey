@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></style>
+    <title>Document</title>
+</head>
+<body>
+<h1 id="title"> Music survey</h1>
+
+
+<p id = "description"> I am going to ask you a few questions about your music taste 
+    and how you listen to music. 
+</p>
+
+<form id="survey-form">
+
+    <label for="name" id="name-label">What's your name?</label>
+    <input id="name" type="text" name="name" placeholder="Peter" required> </input>
+<br>
+ <label for="email" id="email-label">What's your email address?</label>
+    <input id="email" type="email" name="email" placeholder="Peter@email.com"
+     required class = "form-inputs" </input> 
+    <br>
+    <label for="number" id="number-label">What's your age?</label>
+    <input id="number" type="number" name="number" placeholder="20" min = "12" max = "120" required> </input>
+<br>
+    <label for="dropdown" id = "radio"> Do you listen to radio?</label>
+    <select id="dropdown">
+        <option value="All the time"> All the time</option>
+        <option value="Often"> Often</option>
+        <option value="Rarely"> Rarely</option>
+        <option value="Never"> Never</option>
+    </select>
+
+
+    <label for="dropdown" id = "radio"> Do you listen to radio?</label>
+    <select id="dropdown">
+        <option value="All the time"> All the time</option>
+        <option value="Often"> Often</option>
+        <option value="Rarely"> Rarely</option>
+        <option value="Never"> Never</option>
+    </select>
+<br>
+    <label for="genre" id="genre"> <b> What's your fav genre? </b></label>
+    <br>
+    <input id="genre" type="radio" id="genre" name = "genre" value = "pop" >
+    <label for="genre">Pop</label>
+    <br>
+
+    <input id="genre" type="radio" id="genre" name = "genre" value = "rock" >
+    <label for="genre">Rock</label>
+    <br>
+    <input id="genre" type="radio" id="genre" name = "genre" value = "metal" >
+    <label for="genre">Metal</label>
+    <br>
+    <input id="genre" type="radio" id="genre" name = "genre" value = "edm" >
+    <label for="genre">EDM</label>
+
+<br>
+<br>
+
+<label for="missing"> What do you think is the main thing missing
+    in popular music nowadays?</label>
+    <br>
+
+<input id="checkbox" type="checkbox" name="missing" value="lyrics"> 
+<label for="checkbox">lyrics</label>
+<br>
+<input id="checkbox" type="checkbox" name="missing" value="mood"> 
+<label for="checkbox">mood</label>
+<br>
+<input id="checkbox" type="checkbox" name="missing" value="feelings"> 
+<label for="checkbox">feelings</label>
+<br>
+<input id="checkbox" type="checkbox" name="missing" value="soul"> 
+<label for="checkbox">soul</label>
+<br><br>
+<label id="textarea"> What does music mean to you?</label>
+<br>
+<textarea id="textarea" name="instructions" rows = "2" cols="30"></textarea>
+<br>
+
+<input id="submit" type="submit" value="Thank you for submitting"</label>
+</input> 
+</form>
+</body>
+</html>
+
